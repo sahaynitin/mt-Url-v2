@@ -319,15 +319,4 @@ async def youtube_dl_call_back(bot, update):
 
             media_album_p = []
             if Config.SCREENSHOTS=="True":
-                if images is not None:
-                    i = 0
-                    caption = ""
-                    if is_w_f:
-                        caption = ""
-                    for image in images:
-                        if os.path.exists(image):
-                            if i == 0:
-                                media_album_p.append(
-                                    InputMediaPhoto(
-                                        media=image,
-                                        
+                if images is not N
