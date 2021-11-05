@@ -3,7 +3,7 @@
 from pyrogram import types
 from bot.client import Client
 from db.data import db
-from bot.core.handlers.settings import show_settings
+from bothandler.settings import show_settings
 
 
 @Client.on_callback_query()
