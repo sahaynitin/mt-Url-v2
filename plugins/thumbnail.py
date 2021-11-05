@@ -4,7 +4,7 @@ from bot import Client
 from pyrogram import filters
 from pyrogram import types
 from database.db import db
-from bot.core.db.add import add_user_to_database
+from database.db.add import add_user_to_database
 
 
 @Client.on_message(filters.command("show_thumbnail") & filters.private & ~filters.edited)
