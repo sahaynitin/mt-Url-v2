@@ -2,7 +2,7 @@
 
 import asyncio
 from pyrogram import types, errors
-from configs import Config
+from sample_config import Config
 from db.data import db
 
 
