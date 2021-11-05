@@ -40,7 +40,7 @@ Made by @Mo_Tech_YT
         InlineKeyboardButton('👨‍💻Source', url='https://youtu.be/nRSbkf3memQ')
         ],[
         InlineKeyboardButton('Help', callback_data='help'),
-        InlineKeyboardButton('About', callback_data='about'),
+        InlineKeyboardButton('About', callback_data='show_settings'),
         InlineKeyboardButton('Close', callback_data='close')
         ]]
     )
@@ -51,7 +51,7 @@ Made by @Mo_Tech_YT
         InlineKeyboardButton('👨‍💻Source', url='https://youtu.be/nRSbkf3memQ')
         ],[
         InlineKeyboardButton('Home', callback_data='home'),
-        InlineKeyboardButton('About', callback_data='about'),
+        InlineKeyboardButton('Settings', callback_data='about'),
         InlineKeyboardButton('Close', callback_data='close')
         ]]
     )
