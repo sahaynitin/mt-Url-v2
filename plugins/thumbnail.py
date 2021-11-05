@@ -3,8 +3,8 @@
 from bot import Client
 from pyrogram import filters
 from pyrogram import types
-from data.db import db
-from data.db.add import add_user_to_database
+from data import db
+from data.add import add_user_to_database
 
 
 @Client.on_message(filters.command("show_thumbnail") & filters.private & ~filters.edited)
