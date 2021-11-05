@@ -1,7 +1,7 @@
 # (c) @AbirHasan2005
 
 from pyrogram import types
-from bot.client import Client
+from bot import Client
 from db.data import db
 from bothandler.settings import show_settings
 
