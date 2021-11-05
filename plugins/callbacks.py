@@ -2,7 +2,7 @@
 
 from pyrogram import types
 from bot.client import Client
-from bot.core.db.database import db
+from db.data import db
 from bot.core.handlers.settings import show_settings
 
 
