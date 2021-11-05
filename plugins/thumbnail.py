@@ -1,9 +1,9 @@
 # (c) @AbirHasan2005
 
-from bot.client import Client
+from bot import Client
 from pyrogram import filters
 from pyrogram import types
-from bot.core.db.database import db
+from database.db import db
 from bot.core.db.add import add_user_to_database
 
 
