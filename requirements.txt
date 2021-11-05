@@ -12,3 +12,10 @@ feedparser
 requests
 tgcrypto
 yt-dlp
+pyromod
+python-dotenv
+dnspython
+motor
+mutagen
+psutil
+aiofiles
