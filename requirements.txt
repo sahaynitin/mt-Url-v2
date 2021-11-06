@@ -19,3 +19,7 @@ motor
 mutagen
 psutil
 aiofiles
+olefile
+lk21
+filetype
+tldextract
