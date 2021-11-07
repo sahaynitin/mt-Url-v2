@@ -215,10 +215,10 @@ async def youtube_dl_call_back(bot, update):
 
             if not os.path.exists(thumb_image_path):
                 mes = await thumb(update.from_user.id)
-                if mes != None:
-                    m = await bot.get_messages(update.message.chat.id, mes.msg_id)
-                    await m.download(file_name=thumb_image_path)
-                    thumb_image_path = thumb_image_path
+                    if not m.from_user:
+        return await m.reply_text("I don't know about you sar :(")
+    await add_user_to_database(c, m)
+    await db.set_thumbnail(m.from_user.id, None)
 
             if os.path.exists(thumb_image_path):
                 width = 0
