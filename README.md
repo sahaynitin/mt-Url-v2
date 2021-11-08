@@ -1,5 +1,5 @@
 # URL-Uploader
-
+©️⛔ Don't Fork Under Maintenance
 A simple url uploader bot with permenent thumbnail support
 
 </p>
